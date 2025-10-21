@@ -22,7 +22,7 @@ import static org.hamcrest.Matchers.equalTo;
 @Tag("integration")
 @Import({ContainerConfig.class})
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
-class ReceiptRestAssuredIntegrationTest {
+class ReceiptIntegrationTest {
 
     @LocalServerPort
     int port;
