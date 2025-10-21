@@ -38,6 +38,9 @@ dependencies {
     testImplementation 'com.tngtech.archunit:archunit-junit5:1.4.1'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
     testImplementation 'org.testcontainers:junit-jupiter'
+    testImplementation 'io.cucumber:cucumber-java:7.14.0'
+    testImplementation 'io.cucumber:cucumber-spring:7.14.0'
+    testImplementation 'io.cucumber:cucumber-junit:7.14.0'
     testImplementation 'org.springframework.boot:spring-boot-testcontainers'
     testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
 }
